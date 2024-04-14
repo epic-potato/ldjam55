@@ -4,9 +4,11 @@ public class Button : MonoBehaviour {
 	[SerializeField] Trigger trigger;
 	public bool Pressed = false;
 	BoxCollider2D col;
+	Animator anim;
 
 	void Start() {
 		col = GetComponent<BoxCollider2D>();
+		anim = GetComponentInChildren<Animator>();
 	}
 
 	bool IsPressed() {
@@ -24,6 +26,12 @@ public class Button : MonoBehaviour {
 		if (IsPressed() != Pressed) {
 			Pressed = IsPressed();
 			trigger.DoTrigger(transform.gameObject, Pressed);
+
+			if (Pressed) {
+				anim.Play("pressed");
+			} else {
+				anim.Play("unpressed");
+			}
 		}
 	}
 }
