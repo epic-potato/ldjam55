@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: fb17ff07428be6c4cbf9c31db764aaff
+guid: b61501274074b9c4d80d3f113859b34e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2864326475604070251
-    second: nanner-pancakes-1x_0
+      213: 1208040086343421634
+    second: image_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: nanner-pancakes-1x_0
+      name: image_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 32
-        height: 1
+        x: 3
+        y: 3
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5907fdc0f3edf38d0800000000000000
-      internalID: -2864326475604070251
+      spriteID: 2ce8eecde02d3c010800000000000000
+      internalID: 1208040086343421634
       vertices: []
       indices: 
       edges: []
@@ -156,8 +156,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      nanner-pancakes-1x_0: -2864326475604070251
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

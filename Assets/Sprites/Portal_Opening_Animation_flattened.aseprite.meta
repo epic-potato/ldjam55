@@ -1,0 +1,811 @@
+fileFormatVersion: 2
+guid: c1ab8741857b4a24e87ce3a5d9d0f9df
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Portal_Opening_Animation_flattened_Frame_0
+    originalName: 
+    pivot: {x: 0.45999998, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 100
+      height: 93
+    spriteID: b64a09a1c588cc549a5cb1f04675f2a4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Portal_Opening_Animation_flattened_Frame_1
+    originalName: 
+    pivot: {x: 0.45999998, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 105
+      width: 100
+      height: 93
+    spriteID: f6a134bac7eb8f14a966637772c3dae2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 105}
+  - name: Portal_Opening_Animation_flattened_Frame_2
+    originalName: 
+    pivot: {x: 0.45999998, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 206
+      width: 100
+      height: 93
+    spriteID: f9443d6a27c755846aed046cde8e56e4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 206}
+  - name: Portal_Opening_Animation_flattened_Frame_3
+    originalName: 
+    pivot: {x: 0.45999998, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 307
+      width: 100
+      height: 93
+    spriteID: ba94c700668ca4f43ad8d372eae43ff8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 307}
+  - name: Portal_Opening_Animation_flattened_Frame_4
+    originalName: 
+    pivot: {x: 0.45999998, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 408
+      width: 100
+      height: 93
+    spriteID: 3a2cbf3eed2088646898695e149d7728
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 408}
+  - name: Portal_Opening_Animation_flattened_Frame_5
+    originalName: 
+    pivot: {x: 0.45999998, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 509
+      width: 100
+      height: 93
+    spriteID: feb80b4c6041cd54d9eca16939222067
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 509}
+  - name: Portal_Opening_Animation_flattened_Frame_6
+    originalName: 
+    pivot: {x: 0.45999998, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 610
+      width: 100
+      height: 93
+    spriteID: baea8e69036f8cf4e806686a7ab57c6d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 610}
+  - name: Portal_Opening_Animation_flattened_Frame_7
+    originalName: 
+    pivot: {x: 0.45999998, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 711
+      width: 100
+      height: 93
+    spriteID: 71fa43becaa94f841aeda35e530fd354
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 711}
+  - name: Portal_Opening_Animation_flattened_Frame_8
+    originalName: 
+    pivot: {x: 0.45999998, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 812
+      width: 100
+      height: 93
+    spriteID: 7f7bd248a41d8bd4d8123d0184ea3f23
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 812}
+  - name: Portal_Opening_Animation_flattened_Frame_9
+    originalName: 
+    pivot: {x: 0.45999998, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 913
+      width: 100
+      height: 93
+    spriteID: 77ed8d300bce5c042922365ae75fea4d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 913}
+  - name: Portal_Opening_Animation_flattened_Frame_10
+    originalName: 
+    pivot: {x: 0.45999998, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 4
+      width: 100
+      height: 93
+    spriteID: 394fafb9465aa584e9d989d2f2633580
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 4}
+  - name: Portal_Opening_Animation_flattened_Frame_11
+    originalName: 
+    pivot: {x: 0.45999998, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 105
+      width: 100
+      height: 93
+    spriteID: 15167a610da9267488b947effda7fb3c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 105}
+  - name: Portal_Opening_Animation_flattened_Frame_12
+    originalName: 
+    pivot: {x: 0.45999998, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 206
+      width: 100
+      height: 93
+    spriteID: e43e2660991917b40a9cbacab20c6119
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 206}
+  - name: Portal_Opening_Animation_flattened_Frame_13
+    originalName: 
+    pivot: {x: 0.45999998, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 307
+      width: 100
+      height: 93
+    spriteID: bbb2ed9fcaabd314a8f34340120c8eba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 307}
+  - name: Portal_Opening_Animation_flattened_Frame_14
+    originalName: 
+    pivot: {x: 0.45999998, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 408
+      width: 100
+      height: 93
+    spriteID: 7812fb82877086e47ac7ba9b32cd7b14
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 408}
+  - name: Portal_Opening_Animation_flattened_Frame_15
+    originalName: 
+    pivot: {x: 0.45999998, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 509
+      width: 100
+      height: 93
+    spriteID: 7ac6fec41ef16c14382427c6a3bf9c43
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 509}
+  - name: Portal_Opening_Animation_flattened_Frame_16
+    originalName: 
+    pivot: {x: 0.45999998, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 610
+      width: 100
+      height: 93
+    spriteID: 78dd00875b7f6f84b9df39d3e398e0f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 610}
+  - name: Portal_Opening_Animation_flattened_Frame_17
+    originalName: 
+    pivot: {x: 0.45999998, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 711
+      width: 100
+      height: 93
+    spriteID: 2ab79a89765ca824d9f688b097cff622
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 711}
+  - name: Portal_Opening_Animation_flattened_Frame_18
+    originalName: 
+    pivot: {x: 0.45999998, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 812
+      width: 100
+      height: 93
+    spriteID: 9121bc146989aac43899341a025802d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 812}
+  - name: Portal_Opening_Animation_flattened_Frame_19
+    originalName: 
+    pivot: {x: 0.45999998, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 913
+      width: 100
+      height: 93
+    spriteID: f6a17ff46f61b8942a18ec4ff2641bc5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 913}
+  - name: Portal_Opening_Animation_flattened_Frame_20
+    originalName: 
+    pivot: {x: 0.45999998, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 220
+      y: 4
+      width: 100
+      height: 93
+    spriteID: 26f62c1892878ba45a3cdc00b1a358d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 220, y: 4}
+  - name: Portal_Opening_Animation_flattened_Frame_21
+    originalName: 
+    pivot: {x: 0.45999998, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 220
+      y: 105
+      width: 100
+      height: 93
+    spriteID: db080981e77cd894783d343bfeac0f4f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 220, y: 105}
+  - name: Portal_Opening_Animation_flattened_Frame_22
+    originalName: 
+    pivot: {x: 0.45999998, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 220
+      y: 206
+      width: 100
+      height: 93
+    spriteID: 0164c91bad48c4b4da8cce4dbb33243b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 220, y: 206}
+  - name: Portal_Opening_Animation_flattened_Frame_23
+    originalName: 
+    pivot: {x: 0.45999998, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 220
+      y: 307
+      width: 100
+      height: 93
+    spriteID: 468f886cdbd0cec459fe8c64cff0431d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 220, y: 307}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1313525654
+    name: Portal_Opening_Animation_flattened
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Portal_Opening_Animation_flattened_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 18
+        y: 0
+        width: 100
+        height: 93
+      spriteId: b64a09a1c588cc549a5cb1f04675f2a4
+    - name: Portal_Opening_Animation_flattened_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 18
+        y: 0
+        width: 100
+        height: 93
+      spriteId: f6a134bac7eb8f14a966637772c3dae2
+    - name: Portal_Opening_Animation_flattened_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 18
+        y: 0
+        width: 100
+        height: 93
+      spriteId: f9443d6a27c755846aed046cde8e56e4
+    - name: Portal_Opening_Animation_flattened_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 18
+        y: 0
+        width: 100
+        height: 93
+      spriteId: ba94c700668ca4f43ad8d372eae43ff8
+    - name: Portal_Opening_Animation_flattened_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 18
+        y: 0
+        width: 100
+        height: 93
+      spriteId: 3a2cbf3eed2088646898695e149d7728
+    - name: Portal_Opening_Animation_flattened_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 18
+        y: 0
+        width: 100
+        height: 93
+      spriteId: feb80b4c6041cd54d9eca16939222067
+    - name: Portal_Opening_Animation_flattened_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 18
+        y: 0
+        width: 100
+        height: 93
+      spriteId: baea8e69036f8cf4e806686a7ab57c6d
+    - name: Portal_Opening_Animation_flattened_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 18
+        y: 0
+        width: 100
+        height: 93
+      spriteId: 71fa43becaa94f841aeda35e530fd354
+    - name: Portal_Opening_Animation_flattened_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 18
+        y: 0
+        width: 100
+        height: 93
+      spriteId: 7f7bd248a41d8bd4d8123d0184ea3f23
+    - name: Portal_Opening_Animation_flattened_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 18
+        y: 0
+        width: 100
+        height: 93
+      spriteId: 77ed8d300bce5c042922365ae75fea4d
+    - name: Portal_Opening_Animation_flattened_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 18
+        y: 0
+        width: 100
+        height: 93
+      spriteId: 394fafb9465aa584e9d989d2f2633580
+    - name: Portal_Opening_Animation_flattened_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 18
+        y: 0
+        width: 100
+        height: 93
+      spriteId: 15167a610da9267488b947effda7fb3c
+    - name: Portal_Opening_Animation_flattened_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 18
+        y: 0
+        width: 100
+        height: 93
+      spriteId: e43e2660991917b40a9cbacab20c6119
+    - name: Portal_Opening_Animation_flattened_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 18
+        y: 0
+        width: 100
+        height: 93
+      spriteId: bbb2ed9fcaabd314a8f34340120c8eba
+    - name: Portal_Opening_Animation_flattened_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 18
+        y: 0
+        width: 100
+        height: 93
+      spriteId: 7812fb82877086e47ac7ba9b32cd7b14
+    - name: Portal_Opening_Animation_flattened_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 18
+        y: 0
+        width: 100
+        height: 93
+      spriteId: 7ac6fec41ef16c14382427c6a3bf9c43
+    - name: Portal_Opening_Animation_flattened_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 18
+        y: 0
+        width: 100
+        height: 93
+      spriteId: 78dd00875b7f6f84b9df39d3e398e0f7
+    - name: Portal_Opening_Animation_flattened_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 18
+        y: 0
+        width: 100
+        height: 93
+      spriteId: 2ab79a89765ca824d9f688b097cff622
+    - name: Portal_Opening_Animation_flattened_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 18
+        y: 0
+        width: 100
+        height: 93
+      spriteId: 9121bc146989aac43899341a025802d0
+    - name: Portal_Opening_Animation_flattened_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 18
+        y: 0
+        width: 100
+        height: 93
+      spriteId: f6a17ff46f61b8942a18ec4ff2641bc5
+    - name: Portal_Opening_Animation_flattened_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 18
+        y: 0
+        width: 100
+        height: 93
+      spriteId: 26f62c1892878ba45a3cdc00b1a358d6
+    - name: Portal_Opening_Animation_flattened_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 18
+        y: 0
+        width: 100
+        height: 93
+      spriteId: db080981e77cd894783d343bfeac0f4f
+    - name: Portal_Opening_Animation_flattened_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 18
+        y: 0
+        width: 100
+        height: 93
+      spriteId: 0164c91bad48c4b4da8cce4dbb33243b
+    - name: Portal_Opening_Animation_flattened_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 18
+        y: 0
+        width: 100
+        height: 93
+      spriteId: 468f886cdbd0cec459fe8c64cff0431d
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 128, y: 128}

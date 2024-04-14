@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: fb17ff07428be6c4cbf9c31db764aaff
+guid: f21cf159166ab804caabf53f62ec8fca
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2864326475604070251
-    second: nanner-pancakes-1x_0
+      213: 1454859340319635825
+    second: resurrect-64-8x_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: nanner-pancakes-1x_0
+      name: resurrect-64-8x_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 1
+        width: 512
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5907fdc0f3edf38d0800000000000000
-      internalID: -2864326475604070251
+      spriteID: 17939e1acd2b03410800000000000000
+      internalID: 1454859340319635825
       vertices: []
       indices: 
       edges: []
@@ -157,7 +157,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      nanner-pancakes-1x_0: -2864326475604070251
+      resurrect-64-8x_0: 1454859340319635825
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
