@@ -1,0 +1,3751 @@
+fileFormatVersion: 2
+guid: e6c91be4b50ebc24bb97ae917c8c3220
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: dog_comfy_Frame_0
+    originalName: 
+    pivot: {x: 0.46296296, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 420
+      width: 54
+      height: 23
+    spriteID: 8aefb5b3c51acb449bc60d64310299e9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 420}
+  - name: dog_comfy_Frame_1
+    originalName: 
+    pivot: {x: 0.4528302, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 266
+      y: 738
+      width: 53
+      height: 20
+    spriteID: 060c58591bf008a4da59fa52ef53d613
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 266, y: 738}
+  - name: dog_comfy_Frame_2
+    originalName: 
+    pivot: {x: 0.47368422, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 266
+      y: 200
+      width: 57
+      height: 20
+    spriteID: 2c29b3d8c6e1b304a8c9532662e79469
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 266, y: 200}
+  - name: dog_comfy_Frame_3
+    originalName: 
+    pivot: {x: 0.41538462, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 65
+      height: 24
+    spriteID: 726a57ed85b72ef41974c2cb54788a65
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: dog_comfy_Frame_4
+    originalName: 
+    pivot: {x: 0.3934426, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 395
+      width: 61
+      height: 22
+    spriteID: d5c0f723e1af2b0409428e0ba507ff97
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 395}
+  - name: dog_comfy_Frame_5
+    originalName: 
+    pivot: {x: 0.4339623, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 266
+      y: 344
+      width: 53
+      height: 21
+    spriteID: 1e0ab70b0273a1342b3eddae10e42f4f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 266, y: 344}
+  - name: dog_comfy_Frame_6
+    originalName: 
+    pivot: {x: 0.44444445, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 266
+      y: 570
+      width: 54
+      height: 20
+    spriteID: b50390cb45c38504cb5ee7ef49ab223a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 266, y: 570}
+  - name: dog_comfy_Frame_7
+    originalName: 
+    pivot: {x: 0.41538462, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 36
+      width: 65
+      height: 24
+    spriteID: b83c43e4dc39e4b47bfefea6f117d8d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 36}
+  - name: dog_comfy_Frame_8
+    originalName: 
+    pivot: {x: 0.421875, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 271
+      width: 64
+      height: 22
+    spriteID: f8717b4dd165488429f6837a0ba96f4a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 271}
+  - name: dog_comfy_Frame_9
+    originalName: 
+    pivot: {x: 0.4528302, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 201
+      y: 94
+      width: 53
+      height: 22
+    spriteID: 796ba10780a27fc4b856261e80bef953
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 201, y: 94}
+  - name: dog_comfy_Frame_10
+    originalName: 
+    pivot: {x: 0.46296296, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 266
+      y: 228
+      width: 54
+      height: 21
+    spriteID: 5165f55bdc178cb408bf2c2d54da3437
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 266, y: 228}
+  - name: dog_comfy_Frame_11
+    originalName: 
+    pivot: {x: 0.4528302, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 201
+      y: 124
+      width: 53
+      height: 22
+    spriteID: c97ad9084f3f87b4cb3dc93bb0469be5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 201, y: 124}
+  - name: dog_comfy_Frame_12
+    originalName: 
+    pivot: {x: 0.49122807, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 201
+      y: 4
+      width: 57
+      height: 22
+    spriteID: 21c090f3dcdeb404fb50bd37cae8317e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 201, y: 4}
+  - name: dog_comfy_Frame_13
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 451
+      width: 54
+      height: 23
+    spriteID: 2af5bda7dc726ae438aca1f9a609414c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 451}
+  - name: dog_comfy_Frame_14
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 482
+      width: 54
+      height: 23
+    spriteID: e8d8d960af34e1f48a859e9d9af35427
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 482}
+  - name: dog_comfy_Frame_15
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 513
+      width: 54
+      height: 23
+    spriteID: 8bcd2f534ec6fce4382028cd6db1aada
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 513}
+  - name: dog_comfy_Frame_16
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 544
+      width: 54
+      height: 23
+    spriteID: 1b77292d612f1914585e606a27afa97e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 544}
+  - name: dog_comfy_Frame_17
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 456
+      width: 54
+      height: 24
+    spriteID: b8c6f80c13001034b8f8e64df10ca1ca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 456}
+  - name: dog_comfy_Frame_18
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 488
+      width: 54
+      height: 24
+    spriteID: d482bfe4125267d4c846ee8b12130f32
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 488}
+  - name: dog_comfy_Frame_19
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 520
+      width: 54
+      height: 24
+    spriteID: c4e9cf6293c6a41469f10d1f59d36d38
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 520}
+  - name: dog_comfy_Frame_20
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 552
+      width: 54
+      height: 24
+    spriteID: 839e9d8424b9f9142a61dd3d19003255
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 552}
+  - name: dog_comfy_Frame_21
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 584
+      width: 54
+      height: 24
+    spriteID: 0a16d7aa6e6e202499303248b7a4df15
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 584}
+  - name: dog_comfy_Frame_22
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 616
+      width: 54
+      height: 24
+    spriteID: 12165a5ab66c98a4bb33e76aee3e6943
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 616}
+  - name: dog_comfy_Frame_23
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 648
+      width: 54
+      height: 24
+    spriteID: 1f79e85994cdc924ea08b928f4a307f0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 648}
+  - name: dog_comfy_Frame_24
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 680
+      width: 54
+      height: 24
+    spriteID: d857400593e66254f8a8cad81851b6ad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 680}
+  - name: dog_comfy_Frame_25
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 712
+      width: 54
+      height: 24
+    spriteID: 8bdab392abefaae48a93bf9262d915f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 712}
+  - name: dog_comfy_Frame_26
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 744
+      width: 54
+      height: 24
+    spriteID: 554eee299c4b68147b154eb8209bb62e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 744}
+  - name: dog_comfy_Frame_27
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 776
+      width: 54
+      height: 24
+    spriteID: 2908c62878bbb364f9462fcc1268987b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 776}
+  - name: dog_comfy_Frame_28
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 808
+      width: 54
+      height: 24
+    spriteID: c6396ad87470bfb498a44fea1b587f2d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 808}
+  - name: dog_comfy_Frame_29
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 840
+      width: 54
+      height: 24
+    spriteID: afb4961c0cc30944f81266f5fb0d5188
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 840}
+  - name: dog_comfy_Frame_30
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 872
+      width: 54
+      height: 24
+    spriteID: d5d0ec9aa1b9f664e84bd8715904dcfa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 872}
+  - name: dog_comfy_Frame_31
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 904
+      width: 54
+      height: 24
+    spriteID: 04e9d0453f8e85a42a55b9653b7cb3c8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 904}
+  - name: dog_comfy_Frame_32
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 936
+      width: 54
+      height: 24
+    spriteID: 1fa055c51e5f99b4c9cd7153935534ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 936}
+  - name: dog_comfy_Frame_33
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 968
+      width: 54
+      height: 24
+    spriteID: d98a113532d0b77488f58deed5edcd96
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 968}
+  - name: dog_comfy_Frame_34
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 4
+      width: 54
+      height: 24
+    spriteID: b4dbc0db395d6a74ab68e3702c8d2bad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 4}
+  - name: dog_comfy_Frame_35
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 36
+      width: 54
+      height: 24
+    spriteID: 1f0b88d7fd345604d957370b5d90dd1a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 36}
+  - name: dog_comfy_Frame_36
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 68
+      width: 54
+      height: 24
+    spriteID: 5ff9991a4a0321841ad1eebcab4983c7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 68}
+  - name: dog_comfy_Frame_37
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 100
+      width: 54
+      height: 24
+    spriteID: a718b422c5238e845a294998a18e280e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 100}
+  - name: dog_comfy_Frame_38
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 132
+      width: 54
+      height: 24
+    spriteID: db02a4a0c84623841a116a3a5b08d1a5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 132}
+  - name: dog_comfy_Frame_39
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 164
+      width: 54
+      height: 24
+    spriteID: f7edc176b697ee24291c32cbab4b98f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 164}
+  - name: dog_comfy_Frame_40
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 196
+      width: 54
+      height: 24
+    spriteID: 56b07a81b29dde743afc77e71ef62b73
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 196}
+  - name: dog_comfy_Frame_41
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 228
+      width: 54
+      height: 24
+    spriteID: 7465849c1206d1f48b28a1a134c2ef05
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 228}
+  - name: dog_comfy_Frame_42
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 260
+      width: 54
+      height: 24
+    spriteID: ce8d84a6fecdbdb42893b4c8108ce5a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 260}
+  - name: dog_comfy_Frame_43
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 292
+      width: 54
+      height: 24
+    spriteID: 32093ee5999d3054b9900996ab546376
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 292}
+  - name: dog_comfy_Frame_44
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 324
+      width: 54
+      height: 24
+    spriteID: 521c9e9c71f23184a95b9180c662aaf2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 324}
+  - name: dog_comfy_Frame_45
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 356
+      width: 54
+      height: 24
+    spriteID: a9f0ecfd25e784c4dbc2b7ac49236fb3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 356}
+  - name: dog_comfy_Frame_46
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 388
+      width: 54
+      height: 24
+    spriteID: d2a1c9383a854854a8c35450f56ec702
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 388}
+  - name: dog_comfy_Frame_47
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 420
+      width: 54
+      height: 24
+    spriteID: 91c95c6b63a0dd740af7e27dd60e1ac7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 420}
+  - name: dog_comfy_Frame_48
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 452
+      width: 54
+      height: 24
+    spriteID: 3e0ecfe42364225489de44ba6347a1a0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 452}
+  - name: dog_comfy_Frame_49
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 484
+      width: 54
+      height: 24
+    spriteID: 85c80f762e8248b458d804051f35a2a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 484}
+  - name: dog_comfy_Frame_50
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 516
+      width: 54
+      height: 24
+    spriteID: e3b7617ebc3d4214fb1d5bf8ccb1a456
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 516}
+  - name: dog_comfy_Frame_51
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 548
+      width: 54
+      height: 24
+    spriteID: 8f2c20e572bdecd4a9b0a5c091b4dc9b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 548}
+  - name: dog_comfy_Frame_52
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 580
+      width: 54
+      height: 24
+    spriteID: 232b241d5f5861e409dc33874f1614fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 580}
+  - name: dog_comfy_Frame_53
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 612
+      width: 54
+      height: 24
+    spriteID: dfb1d14cab1d5a543b5eb975dfdaf690
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 612}
+  - name: dog_comfy_Frame_54
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 644
+      width: 54
+      height: 24
+    spriteID: 9e97e31592fc7414b9ca61ac821213e5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 644}
+  - name: dog_comfy_Frame_55
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 676
+      width: 54
+      height: 24
+    spriteID: 0de27aa4c4f65164ab5a705b708c8ce8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 676}
+  - name: dog_comfy_Frame_56
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 708
+      width: 54
+      height: 24
+    spriteID: 484ffd20b8efd284fa3fb7a8003f0402
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 708}
+  - name: dog_comfy_Frame_57
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 740
+      width: 54
+      height: 24
+    spriteID: 12b824b74aa5ed440a2371159b4bc7c3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 740}
+  - name: dog_comfy_Frame_58
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 772
+      width: 54
+      height: 24
+    spriteID: 04f4244ca85dd074dbe43190d30aa2d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 772}
+  - name: dog_comfy_Frame_59
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 804
+      width: 54
+      height: 24
+    spriteID: e29840071d0f40a4cb352d33f2b584b6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 804}
+  - name: dog_comfy_Frame_60
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 836
+      width: 54
+      height: 24
+    spriteID: b93c0cd514ed8414fbcfd21aa47df232
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 836}
+  - name: dog_comfy_Frame_61
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 868
+      width: 54
+      height: 24
+    spriteID: dbbfbef10b4dc90459ab1856e7b855c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 868}
+  - name: dog_comfy_Frame_62
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 900
+      width: 54
+      height: 24
+    spriteID: 0eb5fd2ac4dc0ee408eb7e33924f5ccc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 900}
+  - name: dog_comfy_Frame_63
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 932
+      width: 54
+      height: 24
+    spriteID: 544195c5456849d4ebd19be2f937c00b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 932}
+  - name: dog_comfy_Frame_64
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 964
+      width: 54
+      height: 24
+    spriteID: 8f2c567350c9eb94d8f645667333525f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 964}
+  - name: dog_comfy_Frame_65
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 996
+      width: 54
+      height: 24
+    spriteID: e9357fbe42937bc4dad1d54160358f5f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 996}
+  - name: dog_comfy_Frame_66
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 4
+      width: 54
+      height: 24
+    spriteID: b91f55f8bf8b3904a8bada34fdee7264
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 4}
+  - name: dog_comfy_Frame_67
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 36
+      width: 54
+      height: 24
+    spriteID: 8d32ef5ec1e91d8409cb11d13cf683e8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 36}
+  - name: dog_comfy_Frame_68
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 68
+      width: 54
+      height: 24
+    spriteID: a0a36653613bc274a989279ae856ef58
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 68}
+  - name: dog_comfy_Frame_69
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 100
+      width: 54
+      height: 24
+    spriteID: 70466937ae08a9347b27372a5035a6a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 100}
+  - name: dog_comfy_Frame_70
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 132
+      width: 54
+      height: 24
+    spriteID: 03554d8b73cb64a43a21a86a104a0865
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 132}
+  - name: dog_comfy_Frame_71
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 164
+      width: 54
+      height: 24
+    spriteID: 61235c3808e4900408beb23f943ab39a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 164}
+  - name: dog_comfy_Frame_72
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 196
+      width: 54
+      height: 24
+    spriteID: e4453396f9cd1ea47a71030a78187034
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 196}
+  - name: dog_comfy_Frame_73
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 228
+      width: 54
+      height: 24
+    spriteID: 601830293d77c6f46bb6162376b3f3eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 228}
+  - name: dog_comfy_Frame_74
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 260
+      width: 54
+      height: 24
+    spriteID: eb13e759e5c7b2e4bb2d58d1c9983171
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 260}
+  - name: dog_comfy_Frame_75
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 292
+      width: 54
+      height: 24
+    spriteID: dd693de75b63ad6438e2d0141804df9a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 292}
+  - name: dog_comfy_Frame_76
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 324
+      width: 54
+      height: 24
+    spriteID: df0f2fa41c7907548bc765ab99f9dd4e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 324}
+  - name: dog_comfy_Frame_77
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 356
+      width: 54
+      height: 24
+    spriteID: e2f26172da4917443bf2885668536b38
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 356}
+  - name: dog_comfy_Frame_78
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 388
+      width: 54
+      height: 24
+    spriteID: 93765dd90dba36848a4b6094724bc724
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 388}
+  - name: dog_comfy_Frame_79
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 575
+      width: 54
+      height: 23
+    spriteID: 77ef97bb3ec77ce43b6e17472872d554
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 575}
+  - name: dog_comfy_Frame_80
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 606
+      width: 54
+      height: 23
+    spriteID: f6d3ac9b025facf4a8d71864a6d602bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 606}
+  - name: dog_comfy_Frame_81
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 637
+      width: 54
+      height: 23
+    spriteID: f4094b3bfb2c2ea47aa0ca24ed5f55de
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 637}
+  - name: dog_comfy_Frame_82
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 668
+      width: 54
+      height: 23
+    spriteID: b9307da5dac0fa444b1ffad54fd83fe5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 668}
+  - name: dog_comfy_Frame_83
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 699
+      width: 54
+      height: 23
+    spriteID: 661ad9be4f93e0b4bbe966d2258c66b4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 699}
+  - name: dog_comfy_Frame_84
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 730
+      width: 54
+      height: 23
+    spriteID: 257002953a8c4b5418d212363a897948
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 730}
+  - name: dog_comfy_Frame_85
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 761
+      width: 54
+      height: 23
+    spriteID: 3d4e3f9df41de7d40985bace1c04f20f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 761}
+  - name: dog_comfy_Frame_86
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 792
+      width: 54
+      height: 23
+    spriteID: 094333378c1de3643bc30f867a21efbf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 792}
+  - name: dog_comfy_Frame_87
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 823
+      width: 54
+      height: 23
+    spriteID: cc58698dfbdc9a14288d58cb633bbf62
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 823}
+  - name: dog_comfy_Frame_88
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 854
+      width: 54
+      height: 23
+    spriteID: 923e2d3324fab834c9c20c88b54c1f7a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 854}
+  - name: dog_comfy_Frame_89
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 885
+      width: 54
+      height: 23
+    spriteID: 12b4217db0d0c8a4980ba7cd0afed71b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 885}
+  - name: dog_comfy_Frame_90
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 916
+      width: 54
+      height: 23
+    spriteID: 85db2bf91b9c175468272de4cea5edc2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 916}
+  - name: dog_comfy_Frame_91
+    originalName: 
+    pivot: {x: 0.43636364, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 266
+      y: 373
+      width: 55
+      height: 20
+    spriteID: eeecb16483f6d084fadcb6775f15a95d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 266, y: 373}
+  - name: dog_comfy_Frame_92
+    originalName: 
+    pivot: {x: 0.46551725, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1000
+      width: 58
+      height: 20
+    spriteID: b2de697a6babf644fb1a27e92f357768
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1000}
+  - name: dog_comfy_Frame_93
+    originalName: 
+    pivot: {x: 0.46551725, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 266
+      y: 4
+      width: 58
+      height: 20
+    spriteID: 711394eeca553cb4b9239470beb9a18e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 266, y: 4}
+  - name: dog_comfy_Frame_94
+    originalName: 
+    pivot: {x: 0.43636364, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 266
+      y: 401
+      width: 55
+      height: 20
+    spriteID: 47ba9fe88fbffb64ab73b58d2b02a9bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 266, y: 401}
+  - name: dog_comfy_Frame_95
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 266
+      y: 257
+      width: 54
+      height: 21
+    spriteID: e3eca98cf354c694ebe1d3da1b2aaafb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 266, y: 257}
+  - name: dog_comfy_Frame_96
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 266
+      y: 598
+      width: 54
+      height: 20
+    spriteID: 4336d15fdf72c5c459f1d2b39d6093c3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 266, y: 598}
+  - name: dog_comfy_Frame_97
+    originalName: 
+    pivot: {x: 0.43636364, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 266
+      y: 429
+      width: 55
+      height: 20
+    spriteID: 95c6c4090ead65645996a2b8fe8985ce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 266, y: 429}
+  - name: dog_comfy_Frame_98
+    originalName: 
+    pivot: {x: 0.46551725, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 266
+      y: 32
+      width: 58
+      height: 20
+    spriteID: 1b8f92da6eaebe94ba4301dd1d4c69d3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 266, y: 32}
+  - name: dog_comfy_Frame_99
+    originalName: 
+    pivot: {x: 0.46551725, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 266
+      y: 60
+      width: 58
+      height: 20
+    spriteID: e9d8d1f71e9681540b4af52c148dd8f3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 266, y: 60}
+  - name: dog_comfy_Frame_100
+    originalName: 
+    pivot: {x: 0.46551725, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 266
+      y: 88
+      width: 58
+      height: 20
+    spriteID: 1e7eefd70bfba714399214cbd12fef09
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 266, y: 88}
+  - name: dog_comfy_Frame_101
+    originalName: 
+    pivot: {x: 0.43636364, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 266
+      y: 457
+      width: 55
+      height: 20
+    spriteID: 3d39a6c7925aa6846b204160e9f2dba5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 266, y: 457}
+  - name: dog_comfy_Frame_102
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 266
+      y: 626
+      width: 54
+      height: 20
+    spriteID: dbff8195aee7fff4c9866401a6daf044
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 266, y: 626}
+  - name: dog_comfy_Frame_103
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 266
+      y: 286
+      width: 54
+      height: 21
+    spriteID: 96e4f4dee3e0ac6499f09aa9a9fe34b3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 266, y: 286}
+  - name: dog_comfy_Frame_104
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 266
+      y: 654
+      width: 54
+      height: 20
+    spriteID: 17b33848ead0c7944956c56377218c12
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 266, y: 654}
+  - name: dog_comfy_Frame_105
+    originalName: 
+    pivot: {x: 0.43636364, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 266
+      y: 485
+      width: 55
+      height: 20
+    spriteID: a2c00fce1a0ca214bb62f05ecfd2bdf7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 266, y: 485}
+  - name: dog_comfy_Frame_106
+    originalName: 
+    pivot: {x: 0.46551725, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 266
+      y: 116
+      width: 58
+      height: 20
+    spriteID: e10bcaef3292458458b634692bfcf370
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 266, y: 116}
+  - name: dog_comfy_Frame_107
+    originalName: 
+    pivot: {x: 0.46551725, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 266
+      y: 144
+      width: 58
+      height: 20
+    spriteID: 03bd6834a34e15944a89a50fadd3cdfa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 266, y: 144}
+  - name: dog_comfy_Frame_108
+    originalName: 
+    pivot: {x: 0.46551725, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 266
+      y: 172
+      width: 58
+      height: 20
+    spriteID: 72ec33200355f2a49b2d03bbed56eddd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 266, y: 172}
+  - name: dog_comfy_Frame_109
+    originalName: 
+    pivot: {x: 0.43636364, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 266
+      y: 513
+      width: 55
+      height: 20
+    spriteID: f4ccbe11cf3357f419a18e5e1d747dda
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 266, y: 513}
+  - name: dog_comfy_Frame_110
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 266
+      y: 682
+      width: 54
+      height: 20
+    spriteID: c51946b49eefac0459ba30f21d6ad632
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 266, y: 682}
+  - name: dog_comfy_Frame_111
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 266
+      y: 315
+      width: 54
+      height: 21
+    spriteID: 735899e9f0d11b846933ec5490e71fc0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 266, y: 315}
+  - name: dog_comfy_Frame_112
+    originalName: 
+    pivot: {x: 0.42592594, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 266
+      y: 710
+      width: 54
+      height: 20
+    spriteID: bde23cd956710714c80620e90c3a76ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 266, y: 710}
+  - name: dog_comfy_Frame_113
+    originalName: 
+    pivot: {x: 0.4915254, y: -0.17391305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 364
+      width: 59
+      height: 23
+    spriteID: dee204da6e4d0c44fb6a14ff16927f69
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 364}
+  - name: dog_comfy_Frame_114
+    originalName: 
+    pivot: {x: 0.5084746, y: -0.15384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 68
+      width: 59
+      height: 26
+    spriteID: 14595f4d3a875334284f2af377ca88dd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 68}
+  - name: dog_comfy_Frame_115
+    originalName: 
+    pivot: {x: 0.5, y: -0.125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 301
+      width: 58
+      height: 24
+    spriteID: da6b604c897de8641b5967c68c419f21
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 301}
+  - name: dog_comfy_Frame_116
+    originalName: 
+    pivot: {x: 0.5, y: -0.12}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 206
+      width: 58
+      height: 25
+    spriteID: 3b99f7c5538cb74408fa371947adc4a2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 206}
+  - name: dog_comfy_Frame_117
+    originalName: 
+    pivot: {x: 0.49122807, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 172
+      width: 57
+      height: 26
+    spriteID: bdb882549ef8c884eb51eacc33ca95e0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 172}
+  - name: dog_comfy_Frame_118
+    originalName: 
+    pivot: {x: 0.47272727, y: -0.074074075}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 102
+      width: 55
+      height: 27
+    spriteID: 785f6956ae6ea2446bd956205a6a93e5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 102}
+  - name: dog_comfy_Frame_119
+    originalName: 
+    pivot: {x: 0.47272727, y: -0.074074075}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 137
+      width: 55
+      height: 27
+    spriteID: a4a5a4396e01fd541b0a5381713f786e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 137}
+  - name: dog_comfy_Frame_120
+    originalName: 
+    pivot: {x: 0.46296296, y: -0.09090909}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 947
+      width: 54
+      height: 22
+    spriteID: d92d580a48cb7774f86b5db67752bbf2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 947}
+  - name: dog_comfy_Frame_121
+    originalName: 
+    pivot: {x: 0.4423077, y: -0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 266
+      y: 541
+      width: 52
+      height: 21
+    spriteID: 15ebd4145f9a58d4f8e478b03dae8ef5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 266, y: 541}
+  - name: dog_comfy_Frame_122
+    originalName: 
+    pivot: {x: 0.4528302, y: -0.09090909}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 201
+      y: 154
+      width: 53
+      height: 22
+    spriteID: a04289cb39be1b24c9fc68755aaf3ba7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 201, y: 154}
+  - name: dog_comfy_Frame_123
+    originalName: 
+    pivot: {x: 0.46296296, y: -0.13636364}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 977
+      width: 54
+      height: 22
+    spriteID: ae07908536f406547ae1ada0195ab3e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 977}
+  - name: dog_comfy_Frame_124
+    originalName: 
+    pivot: {x: 0.47272727, y: -0.13636364}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 201
+      y: 64
+      width: 55
+      height: 22
+    spriteID: e38bb65c10457fe4d9a386d899d58f6b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 201, y: 64}
+  - name: dog_comfy_Frame_125
+    originalName: 
+    pivot: {x: 0.48214287, y: -0.13636364}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 201
+      y: 34
+      width: 56
+      height: 22
+    spriteID: c6510505db5a58f43a442aa29166a3f5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 201, y: 34}
+  - name: dog_comfy_Frame_126
+    originalName: 
+    pivot: {x: 0.4827586, y: -0.17391305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 425
+      width: 58
+      height: 23
+    spriteID: e66c53b5e5d266043b9f108b4a163c84
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 425}
+  - name: dog_comfy_Frame_127
+    originalName: 
+    pivot: {x: 0.4915254, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 239
+      width: 59
+      height: 24
+    spriteID: f548dc6373721804095c12f5d2b3377f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 239}
+  - name: dog_comfy_Frame_128
+    originalName: 
+    pivot: {x: 0.5, y: -0.17391305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 333
+      width: 60
+      height: 23
+    spriteID: 3c9d9f277dcb87e4cb387bee756c53d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 333}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 509584729
+    name: dog_comfy
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: dog_comfy_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 7
+        y: 0
+        width: 54
+        height: 23
+      spriteId: 8aefb5b3c51acb449bc60d64310299e9
+    - name: dog_comfy_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 8
+        y: 0
+        width: 53
+        height: 20
+      spriteId: 060c58591bf008a4da59fa52ef53d613
+    - name: dog_comfy_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 5
+        y: 0
+        width: 57
+        height: 20
+      spriteId: 2c29b3d8c6e1b304a8c9532662e79469
+    - name: dog_comfy_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 5
+        y: 0
+        width: 65
+        height: 24
+      spriteId: 726a57ed85b72ef41974c2cb54788a65
+    - name: dog_comfy_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 8
+        y: 0
+        width: 61
+        height: 22
+      spriteId: d5c0f723e1af2b0409428e0ba507ff97
+    - name: dog_comfy_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 9
+        y: 0
+        width: 53
+        height: 21
+      spriteId: 1e0ab70b0273a1342b3eddae10e42f4f
+    - name: dog_comfy_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 8
+        y: 0
+        width: 54
+        height: 20
+      spriteId: b50390cb45c38504cb5ee7ef49ab223a
+    - name: dog_comfy_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 5
+        y: 0
+        width: 65
+        height: 24
+      spriteId: b83c43e4dc39e4b47bfefea6f117d8d9
+    - name: dog_comfy_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 5
+        y: 0
+        width: 64
+        height: 22
+      spriteId: f8717b4dd165488429f6837a0ba96f4a
+    - name: dog_comfy_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 8
+        y: 0
+        width: 53
+        height: 22
+      spriteId: 796ba10780a27fc4b856261e80bef953
+    - name: dog_comfy_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 7
+        y: 0
+        width: 54
+        height: 21
+      spriteId: 5165f55bdc178cb408bf2c2d54da3437
+    - name: dog_comfy_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 8
+        y: 0
+        width: 53
+        height: 22
+      spriteId: c97ad9084f3f87b4cb3dc93bb0469be5
+    - name: dog_comfy_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 4
+        y: 0
+        width: 57
+        height: 22
+      spriteId: 21c090f3dcdeb404fb50bd37cae8317e
+    - name: dog_comfy_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 23
+      spriteId: 2af5bda7dc726ae438aca1f9a609414c
+    - name: dog_comfy_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 23
+      spriteId: e8d8d960af34e1f48a859e9d9af35427
+    - name: dog_comfy_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 23
+      spriteId: 8bcd2f534ec6fce4382028cd6db1aada
+    - name: dog_comfy_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 23
+      spriteId: 1b77292d612f1914585e606a27afa97e
+    - name: dog_comfy_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: b8c6f80c13001034b8f8e64df10ca1ca
+    - name: dog_comfy_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: d482bfe4125267d4c846ee8b12130f32
+    - name: dog_comfy_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: c4e9cf6293c6a41469f10d1f59d36d38
+    - name: dog_comfy_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: 839e9d8424b9f9142a61dd3d19003255
+    - name: dog_comfy_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: 0a16d7aa6e6e202499303248b7a4df15
+    - name: dog_comfy_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: 12165a5ab66c98a4bb33e76aee3e6943
+    - name: dog_comfy_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: 1f79e85994cdc924ea08b928f4a307f0
+    - name: dog_comfy_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: d857400593e66254f8a8cad81851b6ad
+    - name: dog_comfy_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: 8bdab392abefaae48a93bf9262d915f7
+    - name: dog_comfy_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: 554eee299c4b68147b154eb8209bb62e
+    - name: dog_comfy_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: 2908c62878bbb364f9462fcc1268987b
+    - name: dog_comfy_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: c6396ad87470bfb498a44fea1b587f2d
+    - name: dog_comfy_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: afb4961c0cc30944f81266f5fb0d5188
+    - name: dog_comfy_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: d5d0ec9aa1b9f664e84bd8715904dcfa
+    - name: dog_comfy_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: 04e9d0453f8e85a42a55b9653b7cb3c8
+    - name: dog_comfy_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: 1fa055c51e5f99b4c9cd7153935534ef
+    - name: dog_comfy_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: d98a113532d0b77488f58deed5edcd96
+    - name: dog_comfy_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: b4dbc0db395d6a74ab68e3702c8d2bad
+    - name: dog_comfy_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: 1f0b88d7fd345604d957370b5d90dd1a
+    - name: dog_comfy_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: 5ff9991a4a0321841ad1eebcab4983c7
+    - name: dog_comfy_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: a718b422c5238e845a294998a18e280e
+    - name: dog_comfy_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: db02a4a0c84623841a116a3a5b08d1a5
+    - name: dog_comfy_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: f7edc176b697ee24291c32cbab4b98f7
+    - name: dog_comfy_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: 56b07a81b29dde743afc77e71ef62b73
+    - name: dog_comfy_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: 7465849c1206d1f48b28a1a134c2ef05
+    - name: dog_comfy_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: ce8d84a6fecdbdb42893b4c8108ce5a6
+    - name: dog_comfy_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: 32093ee5999d3054b9900996ab546376
+    - name: dog_comfy_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: 521c9e9c71f23184a95b9180c662aaf2
+    - name: dog_comfy_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: a9f0ecfd25e784c4dbc2b7ac49236fb3
+    - name: dog_comfy_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: d2a1c9383a854854a8c35450f56ec702
+    - name: dog_comfy_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: 91c95c6b63a0dd740af7e27dd60e1ac7
+    - name: dog_comfy_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: 3e0ecfe42364225489de44ba6347a1a0
+    - name: dog_comfy_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: 85c80f762e8248b458d804051f35a2a3
+    - name: dog_comfy_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: e3b7617ebc3d4214fb1d5bf8ccb1a456
+    - name: dog_comfy_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: 8f2c20e572bdecd4a9b0a5c091b4dc9b
+    - name: dog_comfy_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: 232b241d5f5861e409dc33874f1614fb
+    - name: dog_comfy_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: dfb1d14cab1d5a543b5eb975dfdaf690
+    - name: dog_comfy_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: 9e97e31592fc7414b9ca61ac821213e5
+    - name: dog_comfy_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: 0de27aa4c4f65164ab5a705b708c8ce8
+    - name: dog_comfy_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: 484ffd20b8efd284fa3fb7a8003f0402
+    - name: dog_comfy_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: 12b824b74aa5ed440a2371159b4bc7c3
+    - name: dog_comfy_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: 04f4244ca85dd074dbe43190d30aa2d6
+    - name: dog_comfy_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: e29840071d0f40a4cb352d33f2b584b6
+    - name: dog_comfy_Frame_60
+      frameIndex: 60
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: b93c0cd514ed8414fbcfd21aa47df232
+    - name: dog_comfy_Frame_61
+      frameIndex: 61
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: dbbfbef10b4dc90459ab1856e7b855c9
+    - name: dog_comfy_Frame_62
+      frameIndex: 62
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: 0eb5fd2ac4dc0ee408eb7e33924f5ccc
+    - name: dog_comfy_Frame_63
+      frameIndex: 63
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: 544195c5456849d4ebd19be2f937c00b
+    - name: dog_comfy_Frame_64
+      frameIndex: 64
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: 8f2c567350c9eb94d8f645667333525f
+    - name: dog_comfy_Frame_65
+      frameIndex: 65
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: e9357fbe42937bc4dad1d54160358f5f
+    - name: dog_comfy_Frame_66
+      frameIndex: 66
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: b91f55f8bf8b3904a8bada34fdee7264
+    - name: dog_comfy_Frame_67
+      frameIndex: 67
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: 8d32ef5ec1e91d8409cb11d13cf683e8
+    - name: dog_comfy_Frame_68
+      frameIndex: 68
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: a0a36653613bc274a989279ae856ef58
+    - name: dog_comfy_Frame_69
+      frameIndex: 69
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: 70466937ae08a9347b27372a5035a6a3
+    - name: dog_comfy_Frame_70
+      frameIndex: 70
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: 03554d8b73cb64a43a21a86a104a0865
+    - name: dog_comfy_Frame_71
+      frameIndex: 71
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: 61235c3808e4900408beb23f943ab39a
+    - name: dog_comfy_Frame_72
+      frameIndex: 72
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: e4453396f9cd1ea47a71030a78187034
+    - name: dog_comfy_Frame_73
+      frameIndex: 73
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: 601830293d77c6f46bb6162376b3f3eb
+    - name: dog_comfy_Frame_74
+      frameIndex: 74
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: eb13e759e5c7b2e4bb2d58d1c9983171
+    - name: dog_comfy_Frame_75
+      frameIndex: 75
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: dd693de75b63ad6438e2d0141804df9a
+    - name: dog_comfy_Frame_76
+      frameIndex: 76
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: df0f2fa41c7907548bc765ab99f9dd4e
+    - name: dog_comfy_Frame_77
+      frameIndex: 77
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: e2f26172da4917443bf2885668536b38
+    - name: dog_comfy_Frame_78
+      frameIndex: 78
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 24
+      spriteId: 93765dd90dba36848a4b6094724bc724
+    - name: dog_comfy_Frame_79
+      frameIndex: 79
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 23
+      spriteId: 77ef97bb3ec77ce43b6e17472872d554
+    - name: dog_comfy_Frame_80
+      frameIndex: 80
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 23
+      spriteId: f6d3ac9b025facf4a8d71864a6d602bc
+    - name: dog_comfy_Frame_81
+      frameIndex: 81
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 23
+      spriteId: f4094b3bfb2c2ea47aa0ca24ed5f55de
+    - name: dog_comfy_Frame_82
+      frameIndex: 82
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 23
+      spriteId: b9307da5dac0fa444b1ffad54fd83fe5
+    - name: dog_comfy_Frame_83
+      frameIndex: 83
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 23
+      spriteId: 661ad9be4f93e0b4bbe966d2258c66b4
+    - name: dog_comfy_Frame_84
+      frameIndex: 84
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 23
+      spriteId: 257002953a8c4b5418d212363a897948
+    - name: dog_comfy_Frame_85
+      frameIndex: 85
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 23
+      spriteId: 3d4e3f9df41de7d40985bace1c04f20f
+    - name: dog_comfy_Frame_86
+      frameIndex: 86
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 23
+      spriteId: 094333378c1de3643bc30f867a21efbf
+    - name: dog_comfy_Frame_87
+      frameIndex: 87
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 23
+      spriteId: cc58698dfbdc9a14288d58cb633bbf62
+    - name: dog_comfy_Frame_88
+      frameIndex: 88
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 23
+      spriteId: 923e2d3324fab834c9c20c88b54c1f7a
+    - name: dog_comfy_Frame_89
+      frameIndex: 89
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 23
+      spriteId: 12b4217db0d0c8a4980ba7cd0afed71b
+    - name: dog_comfy_Frame_90
+      frameIndex: 90
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 23
+      spriteId: 85db2bf91b9c175468272de4cea5edc2
+    - name: dog_comfy_Frame_91
+      frameIndex: 91
+      cellRect:
+        x: 8
+        y: 0
+        width: 55
+        height: 20
+      spriteId: eeecb16483f6d084fadcb6775f15a95d
+    - name: dog_comfy_Frame_92
+      frameIndex: 92
+      cellRect:
+        x: 5
+        y: 0
+        width: 58
+        height: 20
+      spriteId: b2de697a6babf644fb1a27e92f357768
+    - name: dog_comfy_Frame_93
+      frameIndex: 93
+      cellRect:
+        x: 5
+        y: 0
+        width: 58
+        height: 20
+      spriteId: 711394eeca553cb4b9239470beb9a18e
+    - name: dog_comfy_Frame_94
+      frameIndex: 94
+      cellRect:
+        x: 8
+        y: 0
+        width: 55
+        height: 20
+      spriteId: 47ba9fe88fbffb64ab73b58d2b02a9bf
+    - name: dog_comfy_Frame_95
+      frameIndex: 95
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 21
+      spriteId: e3eca98cf354c694ebe1d3da1b2aaafb
+    - name: dog_comfy_Frame_96
+      frameIndex: 96
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 20
+      spriteId: 4336d15fdf72c5c459f1d2b39d6093c3
+    - name: dog_comfy_Frame_97
+      frameIndex: 97
+      cellRect:
+        x: 8
+        y: 0
+        width: 55
+        height: 20
+      spriteId: 95c6c4090ead65645996a2b8fe8985ce
+    - name: dog_comfy_Frame_98
+      frameIndex: 98
+      cellRect:
+        x: 5
+        y: 0
+        width: 58
+        height: 20
+      spriteId: 1b8f92da6eaebe94ba4301dd1d4c69d3
+    - name: dog_comfy_Frame_99
+      frameIndex: 99
+      cellRect:
+        x: 5
+        y: 0
+        width: 58
+        height: 20
+      spriteId: e9d8d1f71e9681540b4af52c148dd8f3
+    - name: dog_comfy_Frame_100
+      frameIndex: 100
+      cellRect:
+        x: 5
+        y: 0
+        width: 58
+        height: 20
+      spriteId: 1e7eefd70bfba714399214cbd12fef09
+    - name: dog_comfy_Frame_101
+      frameIndex: 101
+      cellRect:
+        x: 8
+        y: 0
+        width: 55
+        height: 20
+      spriteId: 3d39a6c7925aa6846b204160e9f2dba5
+    - name: dog_comfy_Frame_102
+      frameIndex: 102
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 20
+      spriteId: dbff8195aee7fff4c9866401a6daf044
+    - name: dog_comfy_Frame_103
+      frameIndex: 103
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 21
+      spriteId: 96e4f4dee3e0ac6499f09aa9a9fe34b3
+    - name: dog_comfy_Frame_104
+      frameIndex: 104
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 20
+      spriteId: 17b33848ead0c7944956c56377218c12
+    - name: dog_comfy_Frame_105
+      frameIndex: 105
+      cellRect:
+        x: 8
+        y: 0
+        width: 55
+        height: 20
+      spriteId: a2c00fce1a0ca214bb62f05ecfd2bdf7
+    - name: dog_comfy_Frame_106
+      frameIndex: 106
+      cellRect:
+        x: 5
+        y: 0
+        width: 58
+        height: 20
+      spriteId: e10bcaef3292458458b634692bfcf370
+    - name: dog_comfy_Frame_107
+      frameIndex: 107
+      cellRect:
+        x: 5
+        y: 0
+        width: 58
+        height: 20
+      spriteId: 03bd6834a34e15944a89a50fadd3cdfa
+    - name: dog_comfy_Frame_108
+      frameIndex: 108
+      cellRect:
+        x: 5
+        y: 0
+        width: 58
+        height: 20
+      spriteId: 72ec33200355f2a49b2d03bbed56eddd
+    - name: dog_comfy_Frame_109
+      frameIndex: 109
+      cellRect:
+        x: 8
+        y: 0
+        width: 55
+        height: 20
+      spriteId: f4ccbe11cf3357f419a18e5e1d747dda
+    - name: dog_comfy_Frame_110
+      frameIndex: 110
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 20
+      spriteId: c51946b49eefac0459ba30f21d6ad632
+    - name: dog_comfy_Frame_111
+      frameIndex: 111
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 21
+      spriteId: 735899e9f0d11b846933ec5490e71fc0
+    - name: dog_comfy_Frame_112
+      frameIndex: 112
+      cellRect:
+        x: 9
+        y: 0
+        width: 54
+        height: 20
+      spriteId: bde23cd956710714c80620e90c3a76ab
+    - name: dog_comfy_Frame_113
+      frameIndex: 113
+      cellRect:
+        x: 3
+        y: 4
+        width: 59
+        height: 23
+      spriteId: dee204da6e4d0c44fb6a14ff16927f69
+    - name: dog_comfy_Frame_114
+      frameIndex: 114
+      cellRect:
+        x: 2
+        y: 4
+        width: 59
+        height: 26
+      spriteId: 14595f4d3a875334284f2af377ca88dd
+    - name: dog_comfy_Frame_115
+      frameIndex: 115
+      cellRect:
+        x: 3
+        y: 3
+        width: 58
+        height: 24
+      spriteId: da6b604c897de8641b5967c68c419f21
+    - name: dog_comfy_Frame_116
+      frameIndex: 116
+      cellRect:
+        x: 3
+        y: 3
+        width: 58
+        height: 25
+      spriteId: 3b99f7c5538cb74408fa371947adc4a2
+    - name: dog_comfy_Frame_117
+      frameIndex: 117
+      cellRect:
+        x: 4
+        y: 2
+        width: 57
+        height: 26
+      spriteId: bdb882549ef8c884eb51eacc33ca95e0
+    - name: dog_comfy_Frame_118
+      frameIndex: 118
+      cellRect:
+        x: 6
+        y: 2
+        width: 55
+        height: 27
+      spriteId: 785f6956ae6ea2446bd956205a6a93e5
+    - name: dog_comfy_Frame_119
+      frameIndex: 119
+      cellRect:
+        x: 6
+        y: 2
+        width: 55
+        height: 27
+      spriteId: a4a5a4396e01fd541b0a5381713f786e
+    - name: dog_comfy_Frame_120
+      frameIndex: 120
+      cellRect:
+        x: 7
+        y: 2
+        width: 54
+        height: 22
+      spriteId: d92d580a48cb7774f86b5db67752bbf2
+    - name: dog_comfy_Frame_121
+      frameIndex: 121
+      cellRect:
+        x: 9
+        y: 3
+        width: 52
+        height: 21
+      spriteId: 15ebd4145f9a58d4f8e478b03dae8ef5
+    - name: dog_comfy_Frame_122
+      frameIndex: 122
+      cellRect:
+        x: 8
+        y: 2
+        width: 53
+        height: 22
+      spriteId: a04289cb39be1b24c9fc68755aaf3ba7
+    - name: dog_comfy_Frame_123
+      frameIndex: 123
+      cellRect:
+        x: 7
+        y: 3
+        width: 54
+        height: 22
+      spriteId: ae07908536f406547ae1ada0195ab3e7
+    - name: dog_comfy_Frame_124
+      frameIndex: 124
+      cellRect:
+        x: 6
+        y: 3
+        width: 55
+        height: 22
+      spriteId: e38bb65c10457fe4d9a386d899d58f6b
+    - name: dog_comfy_Frame_125
+      frameIndex: 125
+      cellRect:
+        x: 5
+        y: 3
+        width: 56
+        height: 22
+      spriteId: c6510505db5a58f43a442aa29166a3f5
+    - name: dog_comfy_Frame_126
+      frameIndex: 126
+      cellRect:
+        x: 4
+        y: 4
+        width: 58
+        height: 23
+      spriteId: e66c53b5e5d266043b9f108b4a163c84
+    - name: dog_comfy_Frame_127
+      frameIndex: 127
+      cellRect:
+        x: 3
+        y: 4
+        width: 59
+        height: 24
+      spriteId: f548dc6373721804095c12f5d2b3377f
+    - name: dog_comfy_Frame_128
+      frameIndex: 128
+      cellRect:
+        x: 2
+        y: 4
+        width: 60
+        height: 23
+      spriteId: 3c9d9f277dcb87e4cb387bee756c53d9
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}

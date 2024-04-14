@@ -1,10 +1,5 @@
 using UnityEngine;
 
-enum Facing {
-	Left,
-	Right,
-}
-
 enum PlayerState {
 	Idle,
 	Barking,
@@ -46,6 +41,11 @@ public class PlayerCtrl : MonoBehaviour {
 	Animator anim;
 	Wait wait;
 
+	// collectible state
+	int bones = 0;
+	bool hasKey = false;
+	bool hasThroneKey = false;
+
 	// Start is called before the first frame update
 	void Start() {
 		xform = this.transform;
@@ -53,6 +53,10 @@ public class PlayerCtrl : MonoBehaviour {
 		rb = GetComponent<Rigidbody2D>();
 		anim = GetComponentInChildren<Animator>();
 		necro = GameObject.Find("Necromancer").GetComponent<Necromancer>();
+	}
+
+	public Collider2D GetCollider() {
+		return col;
 	}
 
 	RaycastHit2D? GetHit(Vector2 moveVec) {
@@ -79,6 +83,21 @@ public class PlayerCtrl : MonoBehaviour {
 		var hit = GetHit(moveVec);
 		if (hit.HasValue) {
 			moveVec -= (hit.Value.normal * hit.Value.centroid);
+		}
+	}
+
+	public void GetCollectible(CollectibleKind kind) {
+		Debug.Log("GetCollectible");
+		switch (kind) {
+			case CollectibleKind.Bone:
+				bones += 1;
+				break;
+			case CollectibleKind.Key:
+				hasKey = true;
+				break;
+			case CollectibleKind.ThroneKey:
+				hasThroneKey = true;
+				break;
 		}
 	}
 

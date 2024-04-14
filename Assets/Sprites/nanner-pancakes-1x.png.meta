@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      nanner-pancakes-1x_0: -2864326475604070251
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
