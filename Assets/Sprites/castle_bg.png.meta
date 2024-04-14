@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: eb6248df52ebbe04793acc4f0b355ed1
+guid: c605e826f041e204eb2e9f83749f2dcf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2516772184236309806
-    second: comfy52-8x_0
+      213: 1752586944385855277
+    second: castle_bg_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: comfy52-8x_0
+      name: castle_bg_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 416
-        height: 8
+        width: 640
+        height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e2d3df597fe5de220800000000000000
-      internalID: 2516772184236309806
+      spriteID: d2f2b125a80725810800000000000000
+      internalID: 1752586944385855277
       vertices: []
       indices: 
       edges: []
@@ -156,8 +156,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      comfy52-8x_0: 2516772184236309806
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
