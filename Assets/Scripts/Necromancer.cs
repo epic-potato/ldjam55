@@ -100,7 +100,7 @@ public class Necromancer : MonoBehaviour {
 				SetState(NecroState.Walking);
 				break;
 			case NecroState.Walking:
-				SetState(state = NecroState.Idle);
+				SetState(NecroState.Idle);
 				break;
 		}
 

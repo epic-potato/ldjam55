@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 845ce3e362e1aa447a1484db596c1667
+guid: 503614597977cd54f9ee10c0528c3afd
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,7 +121,47 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Mushroom_spring
+  - name: Mushroom_animation(1)_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 97
+      width: 28
+      height: 17
+    spriteID: 8f0d7a418f68bb145a6dacad34447244
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 97}
+  - name: Mushroom_animation(1)_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.13333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 74
+      width: 32
+      height: 15
+    spriteID: 06e1eefe474d99e4a9c0e35690816c52
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 74}
+  - name: Mushroom_animation(1)_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -132,7 +172,7 @@ ScriptedImporter:
       y: 4
       width: 28
       height: 29
-    spriteID: d6d02458f6d21ba4ab286c0554ba524b
+    spriteID: 38999a30e664be649b3641cb8f45c2bc
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -141,23 +181,67 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+  - name: Mushroom_animation(1)_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 41
+      width: 28
+      height: 25
+    spriteID: 9d719ee6d7c71b54d9c7263a6d0b2e88
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 41}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1047219280
-    name: Mushroom_spring
+    guid: -1847432027
+    name: Mushroom_animation(1)
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Mushroom_spring
+    - name: Mushroom_animation(1)_Frame_0
       frameIndex: 0
       cellRect:
         x: 2
         y: 0
         width: 28
+        height: 17
+      spriteId: 8f0d7a418f68bb145a6dacad34447244
+    - name: Mushroom_animation(1)_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 0
+        y: -2
+        width: 32
+        height: 15
+      spriteId: 06e1eefe474d99e4a9c0e35690816c52
+    - name: Mushroom_animation(1)_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 2
+        y: 0
+        width: 28
         height: 29
-      spriteId: d6d02458f6d21ba4ab286c0554ba524b
+      spriteId: 38999a30e664be649b3641cb8f45c2bc
+    - name: Mushroom_animation(1)_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 2
+        y: 0
+        width: 28
+        height: 25
+      spriteId: 9d719ee6d7c71b54d9c7263a6d0b2e88
     linkedCells: []
     parentIndex: -1
   platformSettings: []

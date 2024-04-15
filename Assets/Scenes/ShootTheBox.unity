@@ -11665,6 +11665,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0dabab71fb747642a7425d2cb2cb735, type: 3}
+--- !u!1001 &3602604713980386233
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4186090578595594459, guid: 6007982059e853143963a363cd2f1115, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4186090578595594459, guid: 6007982059e853143963a363cd2f1115, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.972
+      objectReference: {fileID: 0}
+    - target: {fileID: 4186090578595594459, guid: 6007982059e853143963a363cd2f1115, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4186090578595594459, guid: 6007982059e853143963a363cd2f1115, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4186090578595594459, guid: 6007982059e853143963a363cd2f1115, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4186090578595594459, guid: 6007982059e853143963a363cd2f1115, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4186090578595594459, guid: 6007982059e853143963a363cd2f1115, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4186090578595594459, guid: 6007982059e853143963a363cd2f1115, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4186090578595594459, guid: 6007982059e853143963a363cd2f1115, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4186090578595594459, guid: 6007982059e853143963a363cd2f1115, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9207594119949324433, guid: 6007982059e853143963a363cd2f1115, type: 3}
+      propertyPath: m_Name
+      value: Mushroom
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6007982059e853143963a363cd2f1115, type: 3}
 --- !u!1001 &6751491752749225554
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11795,6 +11852,10 @@ PrefabInstance:
       propertyPath: m_LinearDrag
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1617584047800293264, guid: 294d32f0d6d9bf34ea68536a574cd249, type: 3}
+      propertyPath: m_GravityScale
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2350585438051408778, guid: 294d32f0d6d9bf34ea68536a574cd249, type: 3}
       propertyPath: m_Name
       value: Necromancer
@@ -11924,3 +11985,4 @@ SceneRoots:
   - {fileID: 1201876599}
   - {fileID: 735491473}
   - {fileID: 7008122305929759085}
+  - {fileID: 3602604713980386233}

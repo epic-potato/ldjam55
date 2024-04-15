@@ -25167,7 +25167,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1204890796123823727, guid: f595a0c0b6453fb45bc46778b66315be, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.9194407
+      value: -1.278
       objectReference: {fileID: 0}
     - target: {fileID: 1204890796123823727, guid: f595a0c0b6453fb45bc46778b66315be, type: 3}
       propertyPath: m_LocalPosition.z
@@ -25203,7 +25203,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5591522204026455186, guid: f595a0c0b6453fb45bc46778b66315be, type: 3}
       propertyPath: nextScene
-      value: TutPortals
+      value: TutPlatforms
       objectReference: {fileID: 0}
     - target: {fileID: 6670390684895729417, guid: f595a0c0b6453fb45bc46778b66315be, type: 3}
       propertyPath: m_Name
