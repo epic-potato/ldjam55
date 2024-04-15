@@ -123,14 +123,14 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: necromancer
     originalName: 
-    pivot: {x: 0.48076925, y: 0}
+    pivot: {x: 0.57142854, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 4
-      width: 52
+      x: 66
+      y: 137
+      width: 49
       height: 59
     spriteID: 15de6ad34e4f8964fb4027ea6b6963f2
     spriteBone: []
@@ -140,7 +140,187 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 4}
+    uvTransform: {x: 62, y: 137}
+  - name: necromancer_Frame_1
+    originalName: 
+    pivot: {x: 0.56, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 136
+      width: 50
+      height: 59
+    spriteID: 51c745cc387114b498c771492dde195d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 136}
+  - name: necromancer_Frame_2
+    originalName: 
+    pivot: {x: 0.54901963, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 70
+      width: 51
+      height: 58
+    spriteID: dc4b3a89ec650d448a8befa12fb6f877
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 70}
+  - name: necromancer_Frame_3
+    originalName: 
+    pivot: {x: 0.5555556, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 54
+      height: 58
+    spriteID: 8eb706e0e49c23040b62c99ef775e28c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2, y: 4}
+  - name: necromancer_Frame_4
+    originalName: 
+    pivot: {x: 0.57142854, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 124
+      y: 4
+      width: 49
+      height: 59
+    spriteID: 208a3ed5e0f66a44eb0b79f8b0353bd8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 120, y: 4}
+  - name: necromancer_Frame_5
+    originalName: 
+    pivot: {x: 0.57142854, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 124
+      y: 71
+      width: 49
+      height: 58
+    spriteID: a63d084f1bb402849b26c335584768dd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 120, y: 71}
+  - name: necromancer_Frame_6
+    originalName: 
+    pivot: {x: 0.6086957, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 124
+      y: 137
+      width: 46
+      height: 59
+    spriteID: 0a7462624627b654daee97778b3e72d8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 120, y: 137}
+  - name: necromancer_Frame_7
+    originalName: 
+    pivot: {x: 0.6086957, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 181
+      y: 4
+      width: 46
+      height: 58
+    spriteID: cad3231380f3bae41bfc5de97fcd2235
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 177, y: 4}
+  - name: necromancer_Frame_8
+    originalName: 
+    pivot: {x: 0.56, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 4
+      width: 50
+      height: 59
+    spriteID: b6ce17e64a0444e4784d647642932b56
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 62, y: 4}
+  - name: necromancer_Frame_9
+    originalName: 
+    pivot: {x: 0.56, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 71
+      width: 50
+      height: 58
+    spriteID: 28f0a45a7e778c94c9167750dad76200
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 62, y: 71}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -150,14 +330,86 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: necromancer
+    - name: necromancer_Frame_0
       frameIndex: 0
       cellRect:
-        x: 7
+        x: 0
         y: 0
-        width: 52
-        height: 59
+        width: 64
+        height: 64
       spriteId: 15de6ad34e4f8964fb4027ea6b6963f2
+    - name: necromancer_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      spriteId: 51c745cc387114b498c771492dde195d
+    - name: necromancer_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      spriteId: dc4b3a89ec650d448a8befa12fb6f877
+    - name: necromancer_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      spriteId: 8eb706e0e49c23040b62c99ef775e28c
+    - name: necromancer_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      spriteId: 208a3ed5e0f66a44eb0b79f8b0353bd8
+    - name: necromancer_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      spriteId: a63d084f1bb402849b26c335584768dd
+    - name: necromancer_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      spriteId: 0a7462624627b654daee97778b3e72d8
+    - name: necromancer_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      spriteId: cad3231380f3bae41bfc5de97fcd2235
+    - name: necromancer_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      spriteId: b6ce17e64a0444e4784d647642932b56
+    - name: necromancer_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      spriteId: 28f0a45a7e778c94c9167750dad76200
     linkedCells: []
     parentIndex: -1
   platformSettings: []

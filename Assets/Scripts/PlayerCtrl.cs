@@ -25,13 +25,16 @@ struct Wait {
 
 
 public class PlayerCtrl : MonoBehaviour {
+	public bool hasKey = false;
+	Vector2 externalVelocity = Vector2.zero;
+
 	[SerializeField] float speed = 5;
 	[SerializeField] float runSpeed = 8f;
 	[SerializeField] float accel = 0.8f;
 	[SerializeField] float airAccel = 0.1f;
 	[SerializeField] float jumpForce = 2;
 	Necromancer necro;
-	PlayerState state = PlayerState.Idle;
+	PlayerState state = PlayerState.Jumping; // this is a hack so we can transition to Idle immediately
 	Transform xform;
 	bool grounded = false;
 	bool running = false;
@@ -43,7 +46,6 @@ public class PlayerCtrl : MonoBehaviour {
 
 	// collectible state
 	int bones = 0;
-	bool hasKey = false;
 	bool hasThroneKey = false;
 
 	// Start is called before the first frame update
@@ -53,6 +55,7 @@ public class PlayerCtrl : MonoBehaviour {
 		rb = GetComponent<Rigidbody2D>();
 		anim = GetComponentInChildren<Animator>();
 		necro = GameObject.Find("Necromancer").GetComponent<Necromancer>();
+		SetState(PlayerState.Idle);
 	}
 
 	public Collider2D GetCollider() {
@@ -62,7 +65,7 @@ public class PlayerCtrl : MonoBehaviour {
 	RaycastHit2D? GetHit(Vector2 moveVec) {
 		var hits = Physics2D.BoxCastAll(col.bounds.center, col.size, 0, moveVec.normalized, moveVec.magnitude);
 		foreach (var hit in hits) {
-			if (hit.collider != col) {
+			if (hit.collider != col && !hit.collider.isTrigger) {
 				return hit;
 			}
 		}
@@ -138,13 +141,27 @@ public class PlayerCtrl : MonoBehaviour {
 		return;
 	}
 
+	void SetExternalVelocity(Vector2 vel) {
+		if (vel.y > 0) {
+			vel.y = 0;
+		}
+
+		externalVelocity = vel;
+	}
+
 	void Update() {
 		var dt = Time.deltaTime;
 		var newState = PlayerState.Idle;
 		running = Input.GetKey(KeyCode.LeftShift);
 
 		var spd = running ? runSpeed : speed;
-		grounded = WouldCollide(Vector2.down * 0.1f);
+		var ground = GetHit(Vector2.down * 0.1f);
+		grounded = ground.HasValue;
+		if (grounded) {
+			SetExternalVelocity(ground.Value.rigidbody.velocity);
+		} else {
+			SetExternalVelocity(Vector2.zero);
+		}
 
 		if (grounded && Input.GetKeyDown("j")) {
 			Bark();
@@ -200,5 +217,6 @@ public class PlayerCtrl : MonoBehaviour {
 		}
 
 		SetState(newState);
+		rb.velocity += externalVelocity;
 	}
 }

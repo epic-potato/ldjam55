@@ -8,12 +8,18 @@ public enum Facing {
 }
 
 public static class FacingMethods {
-	public static Vector3 GetScale(this Facing facing) {
+	public static Vector3 GetDir(this Facing facing) {
 		switch (facing) {
 			case Facing.Left:
-				return new Vector3(-1, 0, 0);
+				return Vector3.left;
+			case Facing.Right:
+				return Vector3.right;
+			case Facing.Up:
+				return Vector3.up;
+			case Facing.Down:
+				return Vector3.down;
 			default:
-				return new Vector3(1, 0, 0);
+				return Vector3.forward;
 		}
 	}
 
@@ -29,6 +35,19 @@ public static class FacingMethods {
 				return Quaternion.Euler(0, 0, 270);
 			default:
 				return Quaternion.Euler(0, 0, 0);
+		}
+	}
+
+	public static Facing Flip(this Facing facing) {
+		switch (facing) {
+			case Facing.Up:
+				return Facing.Down;
+			case Facing.Down:
+				return Facing.Up;
+			case Facing.Left:
+				return Facing.Right;
+			default:
+				return Facing.Left;
 		}
 	}
 }

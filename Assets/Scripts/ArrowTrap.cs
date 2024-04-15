@@ -4,6 +4,7 @@ public class ArrowTrap : MonoBehaviour {
 	[SerializeField] Facing facing;
 	[SerializeField] GameObject arrowPrefab;
 	[SerializeField] float speed;
+	[SerializeField] float interval = 0;
 
 	Trigger trigger;
 	Transform xform;
@@ -27,6 +28,11 @@ public class ArrowTrap : MonoBehaviour {
 			if (trigger.IsTriggered()) {
 				Fire();
 				wait = new Wait(.5f);
+			}
+
+			if (interval > 0) {
+				Fire();
+				wait = new Wait(interval);
 			}
 		}
 	}
