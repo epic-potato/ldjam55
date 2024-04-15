@@ -47,11 +47,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4940f2bd8a43c84484130a26d484039, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hasKey: 0
   speed: 3
   runSpeed: 4
   accel: 0.8
   airAccel: 0.1
   jumpForce: 5
+  slinky: {fileID: 3307301019622741887, guid: 06c77dd2c0b945c4da37d8791e9675a4, type: 3}
 --- !u!50 &5484293184807310522
 Rigidbody2D:
   serializedVersion: 4

@@ -6,6 +6,7 @@ enum PlayerState {
 	Walking,
 	Running,
 	Jumping,
+	Slink,
 }
 
 struct Wait {
@@ -26,13 +27,14 @@ struct Wait {
 
 public class PlayerCtrl : MonoBehaviour {
 	public bool hasKey = false;
-	Vector2 externalVelocity = Vector2.zero;
 
 	[SerializeField] float speed = 5;
 	[SerializeField] float runSpeed = 8f;
 	[SerializeField] float accel = 0.8f;
 	[SerializeField] float airAccel = 0.1f;
 	[SerializeField] float jumpForce = 2;
+	[SerializeField] GameObject slinky;
+
 	Necromancer necro;
 	PlayerState state = PlayerState.Jumping; // this is a hack so we can transition to Idle immediately
 	Transform xform;
@@ -43,6 +45,7 @@ public class PlayerCtrl : MonoBehaviour {
 	Facing facing = Facing.Right;
 	Animator anim;
 	Wait wait;
+	Vector2 externalVelocity = Vector2.zero;
 
 	// collectible state
 	int bones = 0;
@@ -90,7 +93,6 @@ public class PlayerCtrl : MonoBehaviour {
 	}
 
 	public void GetCollectible(CollectibleKind kind) {
-		Debug.Log("GetCollectible");
 		switch (kind) {
 			case CollectibleKind.Bone:
 				bones += 1;
@@ -149,7 +151,48 @@ public class PlayerCtrl : MonoBehaviour {
 		externalVelocity = vel;
 	}
 
+	void Slink() {
+		var dir = facing.GetDir();
+		var slinkyIns = Instantiate(slinky, xform.position + dir * -0.12f, Quaternion.identity);
+
+		var slink = slinkyIns.GetComponent<Slinky>();
+		slink.segments = bones;
+		slink.dir = facing.GetDir();
+
+		col.enabled = false;
+		rb.isKinematic = true;
+
+		foreach (Transform child in transform) {
+			child.gameObject.SetActive(false);
+		}
+
+		slinkyIns.transform.SetParent(xform);
+		SetState(PlayerState.Slink);
+	}
+
+	void Unslink() {
+		var slinky = GetComponentInChildren<Slinky>();
+		Destroy(slinky.gameObject);
+		col.enabled = true;
+		rb.isKinematic = false;
+
+		foreach (Transform child in transform) {
+			child.gameObject.SetActive(true);
+		}
+		SetState(PlayerState.Idle);
+	}
+
 	void Update() {
+		// this has to happen first because _reasons_
+		if (state == PlayerState.Slink) {
+			if (Input.GetKeyUp("l")) {
+				Unslink();
+			} else {
+				return;
+			}
+		}
+
+
 		var dt = Time.deltaTime;
 		var newState = PlayerState.Idle;
 		running = Input.GetKey(KeyCode.LeftShift);
@@ -157,13 +200,14 @@ public class PlayerCtrl : MonoBehaviour {
 		var spd = running ? runSpeed : speed;
 		var ground = GetHit(Vector2.down * 0.1f);
 		grounded = ground.HasValue;
-		if (grounded) {
+		if (ground != null) {
 			SetExternalVelocity(ground.Value.rigidbody.velocity);
 		} else {
 			SetExternalVelocity(Vector2.zero);
 		}
 
 		if (grounded && Input.GetKeyDown("j")) {
+			rb.velocity = Vector2.zero;
 			Bark();
 			return;
 		}
@@ -176,10 +220,15 @@ public class PlayerCtrl : MonoBehaviour {
 			}
 		}
 
-
 		if (Input.GetKeyDown("w") && grounded) {
 			rb.AddForceY(jumpForce, ForceMode2D.Impulse);
 			grounded = false;
+		}
+
+		if (Input.GetKeyDown("l") && grounded) {
+			rb.velocity = Vector2.zero;
+			Slink();
+			return;
 		}
 
 		var currAccel = grounded ? accel : airAccel;
