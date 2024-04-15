@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      comfy53-8x_0: -3203243934306194278
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

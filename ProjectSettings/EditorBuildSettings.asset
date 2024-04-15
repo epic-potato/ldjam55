@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/TutStopAndGo.unity
     guid: 8479c7a01ca79ff40a9c1e3ad723ea50
   - enabled: 1
+    path: Assets/Scenes/TutPlatforms.unity
+    guid: 99d176f1cfe264449ab92436d03484ed
+  - enabled: 1
     path: Assets/Scenes/TutPortals.unity
     guid: 26772db515c6637498579c45704c9ff6
   - enabled: 1
