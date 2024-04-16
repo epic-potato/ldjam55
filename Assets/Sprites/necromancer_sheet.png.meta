@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      necromancer_sheet_0: 1517998378741998382
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
