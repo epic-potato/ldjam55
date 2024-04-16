@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Title.unity
+    guid: 00e0ed64c0e4992478a44f830c776da9
+  - enabled: 1
     path: Assets/Scenes/Tutorial1.unity
     guid: 56a857f00ae0cc24b91e07687d9ed383
   - enabled: 1
@@ -18,10 +21,31 @@ EditorBuildSettings:
     path: Assets/Scenes/TutPortals.unity
     guid: 26772db515c6637498579c45704c9ff6
   - enabled: 1
+    path: Assets/Scenes/CastleCanniptions.unity
+    guid: c93e8a072effbc849bf506c23d3ea05e
+  - enabled: 1
+    path: Assets/Scenes/CastleSpringRun.unity
+    guid: f52a05259e52f7744988693d4d152ee5
+  - enabled: 1
+    path: Assets/Scenes/Crypt1.unity
+    guid: 2dda3d0a7c9502a4492d83f984e02b09
+  - enabled: 1
+    path: Assets/Scenes/CryptStretchy.unity
+    guid: 2928f4921d97cb742b97d4c97a70875f
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ShootTheBox.unity
     guid: b3ef050d077ff4949be16a4c8fd85bcf
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: 1107bc1d0025ada4595ba6e09297a7f1
+  - enabled: 1
+    path: Assets/Scenes/GoodEnding.unity
+    guid: 3ab188ab5c81b014d9a6d7364dedabc1
+  - enabled: 1
+    path: Assets/Scenes/BadEnding.unity
+    guid: 62f6d886f8e745540b587b5b5bd1cda3
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

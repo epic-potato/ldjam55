@@ -1,11 +1,14 @@
+using System.Linq;
 using UnityEngine;
 
 public class Portal : MonoBehaviour {
-	public Collider2D collider;
+	public Collider2D col;
 
 	[SerializeField] Portal nextPortal;
 	[SerializeField] bool open = false;
 
+	AudioSource portalSnd;
+	AudioSource thruSnd;
 	Animator anim;
 	Trigger trigger;
 
@@ -13,7 +16,10 @@ public class Portal : MonoBehaviour {
 	void Start() {
 		trigger = GetComponent<Trigger>();
 		anim = GetComponentInChildren<Animator>();
-		collider = GetComponent<Collider2D>();
+		col = GetComponent<Collider2D>();
+		portalSnd = GetComponent<AudioSource>();
+		thruSnd = GetComponentsInChildren<AudioSource>().First(c => c.name == "ThruSound");
+
 		if (!open) {
 			anim.Play("closed");
 		}
@@ -22,6 +28,7 @@ public class Portal : MonoBehaviour {
 	public void Open() {
 		if (!open) {
 			anim.Play("opening");
+			portalSnd.Play(0);
 			open = true;
 
 			nextPortal?.Open();
@@ -44,10 +51,12 @@ public class Portal : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D col) {
 		if (open && nextPortal != null) {
+			thruSnd.Play(0);
 			var other = col.gameObject;
 			var offset = (col.bounds.center - other.transform.position);
 			// offset.y -= 0.32f; // extra vertical padding just in case
-			var newPosition = nextPortal.collider.bounds.center - offset;
+			var newPosition = nextPortal.col.bounds.center - offset;
+			newPosition.z = other.transform.position.z;
 			other.transform.SetPositionAndRotation(newPosition, Quaternion.identity);
 		}
 	}
