@@ -46,6 +46,7 @@ public class PlayerCtrl : MonoBehaviour {
 	Animator anim;
 	Wait wait;
 	Vector2 externalVelocity = Vector2.zero;
+	AudioSource bark;
 
 	// collectible state
 	int bones = 0;
@@ -59,6 +60,7 @@ public class PlayerCtrl : MonoBehaviour {
 		anim = GetComponentInChildren<Animator>();
 		necro = GameObject.Find("Necromancer").GetComponent<Necromancer>();
 		SetState(PlayerState.Idle);
+		bark = GetComponent<AudioSource>();
 	}
 
 	public Collider2D GetCollider() {
@@ -122,8 +124,9 @@ public class PlayerCtrl : MonoBehaviour {
 				anim.Play("run");
 				break;
 			case PlayerState.Barking:
-				anim.speed = 1;
+				anim.speed = 1.5f;
 				anim.Play("bark");
+				bark.Play(0);
 				break;
 			case PlayerState.Running:
 				anim.speed = 3;
@@ -220,7 +223,7 @@ public class PlayerCtrl : MonoBehaviour {
 			}
 		}
 
-		if (Input.GetKeyDown("w") && grounded) {
+		if (Input.GetKeyDown(KeyCode.Space) && grounded) {
 			rb.AddForceY(jumpForce, ForceMode2D.Impulse);
 			grounded = false;
 		}
@@ -267,5 +270,9 @@ public class PlayerCtrl : MonoBehaviour {
 
 		SetState(newState);
 		rb.velocity += externalVelocity;
+	}
+
+	public void Kill() {
+		xform.position = necro.transform.position;
 	}
 }

@@ -1,0 +1,1147 @@
+fileFormatVersion: 2
+guid: 93a5685eef27a174e911cd30e50a3cc5
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Obelisk_-_On_-_Glowing_Frame_0
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.024691358}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 28
+      height: 81
+    spriteID: 3ae4aca9d942c314f91e000834cb10f1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Obelisk_-_On_-_Glowing_Frame_1
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.024691358}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 93
+      width: 28
+      height: 81
+    spriteID: 9a4f9eae13ec1304693c52f8a5d4890e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 93}
+  - name: Obelisk_-_On_-_Glowing_Frame_2
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.024691358}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 182
+      width: 28
+      height: 81
+    spriteID: ca5bcef5b2008d546b4092c5ada86844
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 182}
+  - name: Obelisk_-_On_-_Glowing_Frame_3
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 360
+      width: 28
+      height: 80
+    spriteID: 4850580d39e989c41ac99039dff690d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 360}
+  - name: Obelisk_-_On_-_Glowing_Frame_4
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.025316456}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 184
+      y: 268
+      width: 28
+      height: 79
+    spriteID: 4e2dcce1758204b439c1af2c7809ca41
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 184, y: 268}
+  - name: Obelisk_-_On_-_Glowing_Frame_5
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.025641026}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 220
+      y: 4
+      width: 28
+      height: 78
+    spriteID: b5164d04068813a46b65c3fc02250284
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 220, y: 4}
+  - name: Obelisk_-_On_-_Glowing_Frame_6
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.025974026}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 220
+      y: 348
+      width: 28
+      height: 77
+    spriteID: cf29a79a023eb454f8fcd0ad5e873f8c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 220, y: 348}
+  - name: Obelisk_-_On_-_Glowing_Frame_7
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.025641026}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 220
+      y: 90
+      width: 28
+      height: 78
+    spriteID: d3d35c608759b004194a83792b0a90f3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 220, y: 90}
+  - name: Obelisk_-_On_-_Glowing_Frame_8
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 184
+      y: 4
+      width: 28
+      height: 80
+    spriteID: 1550934a45d7c6448ab45939194afbc3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 184, y: 4}
+  - name: Obelisk_-_On_-_Glowing_Frame_9
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.024691358}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 271
+      width: 28
+      height: 81
+    spriteID: 1f7ece7c06c53a147b371e17173ddfb8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 271}
+  - name: Obelisk_-_On_-_Glowing_Frame_10
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.024691358}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 360
+      width: 28
+      height: 81
+    spriteID: 27989abcb4d24734794a3237de65a31f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 360}
+  - name: Obelisk_-_On_-_Glowing_Frame_11
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.024691358}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 4
+      width: 28
+      height: 81
+    spriteID: ad9255b4983239f4da7eb4df57e61bfe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 4}
+  - name: Obelisk_-_On_-_Glowing_Frame_12
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.024691358}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 93
+      width: 28
+      height: 81
+    spriteID: beeca7139b12dc54eacacb25c12d7e38
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 93}
+  - name: Obelisk_-_On_-_Glowing_Frame_13
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.024691358}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 182
+      width: 28
+      height: 81
+    spriteID: 24c7448c8395f6747b8be4a5b36d84e8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 182}
+  - name: Obelisk_-_On_-_Glowing_Frame_14
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.024691358}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 271
+      width: 28
+      height: 81
+    spriteID: 526e96b8f3e31314abb1b9ce036dee73
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 271}
+  - name: Obelisk_-_On_-_Glowing_Frame_15
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.024691358}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 360
+      width: 28
+      height: 81
+    spriteID: 1bd7ed40cdbb5ea4d943310c1db9a48b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 360}
+  - name: Obelisk_-_On_-_Glowing_Frame_16
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.024691358}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 4
+      width: 28
+      height: 81
+    spriteID: 326761ad39683fe4f8e4b7c0799ab837
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 4}
+  - name: Obelisk_-_On_-_Glowing_Frame_17
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.024691358}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 93
+      width: 28
+      height: 81
+    spriteID: cf8f97b3039fb0d4f8984b8dfced72d4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 93}
+  - name: Obelisk_-_On_-_Glowing_Frame_18
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.024691358}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 182
+      width: 28
+      height: 81
+    spriteID: fe6557fd9b77f384e98c8d91e185fefc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 182}
+  - name: Obelisk_-_On_-_Glowing_Frame_19
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.024691358}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 271
+      width: 28
+      height: 81
+    spriteID: 9fab1885f07d21541ab233a96c63f5aa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 271}
+  - name: Obelisk_-_On_-_Glowing_Frame_20
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.024691358}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 360
+      width: 28
+      height: 81
+    spriteID: 090ebdc33353edd489a36061504140e3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 360}
+  - name: Obelisk_-_On_-_Glowing_Frame_21
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 184
+      y: 92
+      width: 28
+      height: 80
+    spriteID: 317e7dbfd1ff14e43bb15a3ac76ca5d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 184, y: 92}
+  - name: Obelisk_-_On_-_Glowing_Frame_22
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.025316456}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 184
+      y: 355
+      width: 28
+      height: 79
+    spriteID: 6382ec315a94da542a566449770957f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 184, y: 355}
+  - name: Obelisk_-_On_-_Glowing_Frame_23
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.025641026}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 220
+      y: 176
+      width: 28
+      height: 78
+    spriteID: db75d29dd06ab4b4998c4555062f647b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 220, y: 176}
+  - name: Obelisk_-_On_-_Glowing_Frame_24
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.025974026}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 4
+      width: 28
+      height: 77
+    spriteID: 3bc01c0cfd3932443b44af8969d36a42
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 256, y: 4}
+  - name: Obelisk_-_On_-_Glowing_Frame_25
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.025641026}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 220
+      y: 262
+      width: 28
+      height: 78
+    spriteID: 403a4ba720acbcc42ae868a9951ab685
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 220, y: 262}
+  - name: Obelisk_-_On_-_Glowing_Frame_26
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 184
+      y: 180
+      width: 28
+      height: 80
+    spriteID: d5e0e5ef5bc90224c8984042acc175df
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 184, y: 180}
+  - name: Obelisk_-_On_-_Glowing_Frame_27
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.024691358}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 4
+      width: 28
+      height: 81
+    spriteID: 208ada16787aee04eba2caa7be375e06
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 4}
+  - name: Obelisk_-_On_-_Glowing_Frame_28
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.024691358}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 93
+      width: 28
+      height: 81
+    spriteID: 654e251b75dddc24a8176050f5e0ca17
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 93}
+  - name: Obelisk_-_On_-_Glowing_Frame_29
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.024691358}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 182
+      width: 28
+      height: 81
+    spriteID: 60b49a77ea4392a4a8b52971b6a3fd9b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 182}
+  - name: Obelisk_-_On_-_Glowing_Frame_30
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.024691358}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 271
+      width: 28
+      height: 81
+    spriteID: dfcf5d0c8e102d348a923b26d3315f17
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 271}
+  - name: Obelisk_-_On_-_Glowing_Frame_31
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.024691358}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 360
+      width: 28
+      height: 81
+    spriteID: 1d2021d152f5ff24cbbba3c7fcec3818
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 360}
+  - name: Obelisk_-_On_-_Glowing_Frame_32
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.024691358}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 4
+      width: 28
+      height: 81
+    spriteID: 91ed48a88980f2442a3b44fde05fb759
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 4}
+  - name: Obelisk_-_On_-_Glowing_Frame_33
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.024691358}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 93
+      width: 28
+      height: 81
+    spriteID: 6737c643dcdf6ff419687a12e7d84842
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 93}
+  - name: Obelisk_-_On_-_Glowing_Frame_34
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.024691358}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 182
+      width: 28
+      height: 81
+    spriteID: 219e5aa2e4a78e9428f853c8be8e1faa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 182}
+  - name: Obelisk_-_On_-_Glowing_Frame_35
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.024691358}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 271
+      width: 28
+      height: 81
+    spriteID: 47f6c27f0d4a8bf459ba7362ee7a722b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 271}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -715029777
+    name: Obelisk_-_On_-_Glowing
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Obelisk_-_On_-_Glowing_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 11
+        y: 2
+        width: 28
+        height: 81
+      spriteId: 3ae4aca9d942c314f91e000834cb10f1
+    - name: Obelisk_-_On_-_Glowing_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 11
+        y: 2
+        width: 28
+        height: 81
+      spriteId: 9a4f9eae13ec1304693c52f8a5d4890e
+    - name: Obelisk_-_On_-_Glowing_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 11
+        y: 2
+        width: 28
+        height: 81
+      spriteId: ca5bcef5b2008d546b4092c5ada86844
+    - name: Obelisk_-_On_-_Glowing_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 11
+        y: 2
+        width: 28
+        height: 80
+      spriteId: 4850580d39e989c41ac99039dff690d9
+    - name: Obelisk_-_On_-_Glowing_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 11
+        y: 2
+        width: 28
+        height: 79
+      spriteId: 4e2dcce1758204b439c1af2c7809ca41
+    - name: Obelisk_-_On_-_Glowing_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 11
+        y: 2
+        width: 28
+        height: 78
+      spriteId: b5164d04068813a46b65c3fc02250284
+    - name: Obelisk_-_On_-_Glowing_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 11
+        y: 2
+        width: 28
+        height: 77
+      spriteId: cf29a79a023eb454f8fcd0ad5e873f8c
+    - name: Obelisk_-_On_-_Glowing_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 11
+        y: 2
+        width: 28
+        height: 78
+      spriteId: d3d35c608759b004194a83792b0a90f3
+    - name: Obelisk_-_On_-_Glowing_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 11
+        y: 2
+        width: 28
+        height: 80
+      spriteId: 1550934a45d7c6448ab45939194afbc3
+    - name: Obelisk_-_On_-_Glowing_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 11
+        y: 2
+        width: 28
+        height: 81
+      spriteId: 1f7ece7c06c53a147b371e17173ddfb8
+    - name: Obelisk_-_On_-_Glowing_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 11
+        y: 2
+        width: 28
+        height: 81
+      spriteId: 27989abcb4d24734794a3237de65a31f
+    - name: Obelisk_-_On_-_Glowing_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 11
+        y: 2
+        width: 28
+        height: 81
+      spriteId: ad9255b4983239f4da7eb4df57e61bfe
+    - name: Obelisk_-_On_-_Glowing_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 11
+        y: 2
+        width: 28
+        height: 81
+      spriteId: beeca7139b12dc54eacacb25c12d7e38
+    - name: Obelisk_-_On_-_Glowing_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 11
+        y: 2
+        width: 28
+        height: 81
+      spriteId: 24c7448c8395f6747b8be4a5b36d84e8
+    - name: Obelisk_-_On_-_Glowing_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 11
+        y: 2
+        width: 28
+        height: 81
+      spriteId: 526e96b8f3e31314abb1b9ce036dee73
+    - name: Obelisk_-_On_-_Glowing_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 11
+        y: 2
+        width: 28
+        height: 81
+      spriteId: 1bd7ed40cdbb5ea4d943310c1db9a48b
+    - name: Obelisk_-_On_-_Glowing_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 11
+        y: 2
+        width: 28
+        height: 81
+      spriteId: 326761ad39683fe4f8e4b7c0799ab837
+    - name: Obelisk_-_On_-_Glowing_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 11
+        y: 2
+        width: 28
+        height: 81
+      spriteId: cf8f97b3039fb0d4f8984b8dfced72d4
+    - name: Obelisk_-_On_-_Glowing_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 11
+        y: 2
+        width: 28
+        height: 81
+      spriteId: fe6557fd9b77f384e98c8d91e185fefc
+    - name: Obelisk_-_On_-_Glowing_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 11
+        y: 2
+        width: 28
+        height: 81
+      spriteId: 9fab1885f07d21541ab233a96c63f5aa
+    - name: Obelisk_-_On_-_Glowing_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 11
+        y: 2
+        width: 28
+        height: 81
+      spriteId: 090ebdc33353edd489a36061504140e3
+    - name: Obelisk_-_On_-_Glowing_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 11
+        y: 2
+        width: 28
+        height: 80
+      spriteId: 317e7dbfd1ff14e43bb15a3ac76ca5d6
+    - name: Obelisk_-_On_-_Glowing_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 11
+        y: 2
+        width: 28
+        height: 79
+      spriteId: 6382ec315a94da542a566449770957f2
+    - name: Obelisk_-_On_-_Glowing_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 11
+        y: 2
+        width: 28
+        height: 78
+      spriteId: db75d29dd06ab4b4998c4555062f647b
+    - name: Obelisk_-_On_-_Glowing_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 11
+        y: 2
+        width: 28
+        height: 77
+      spriteId: 3bc01c0cfd3932443b44af8969d36a42
+    - name: Obelisk_-_On_-_Glowing_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 11
+        y: 2
+        width: 28
+        height: 78
+      spriteId: 403a4ba720acbcc42ae868a9951ab685
+    - name: Obelisk_-_On_-_Glowing_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 11
+        y: 2
+        width: 28
+        height: 80
+      spriteId: d5e0e5ef5bc90224c8984042acc175df
+    - name: Obelisk_-_On_-_Glowing_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 11
+        y: 2
+        width: 28
+        height: 81
+      spriteId: 208ada16787aee04eba2caa7be375e06
+    - name: Obelisk_-_On_-_Glowing_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 11
+        y: 2
+        width: 28
+        height: 81
+      spriteId: 654e251b75dddc24a8176050f5e0ca17
+    - name: Obelisk_-_On_-_Glowing_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 11
+        y: 2
+        width: 28
+        height: 81
+      spriteId: 60b49a77ea4392a4a8b52971b6a3fd9b
+    - name: Obelisk_-_On_-_Glowing_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 11
+        y: 2
+        width: 28
+        height: 81
+      spriteId: dfcf5d0c8e102d348a923b26d3315f17
+    - name: Obelisk_-_On_-_Glowing_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 11
+        y: 2
+        width: 28
+        height: 81
+      spriteId: 1d2021d152f5ff24cbbba3c7fcec3818
+    - name: Obelisk_-_On_-_Glowing_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 11
+        y: 2
+        width: 28
+        height: 81
+      spriteId: 91ed48a88980f2442a3b44fde05fb759
+    - name: Obelisk_-_On_-_Glowing_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 11
+        y: 2
+        width: 28
+        height: 81
+      spriteId: 6737c643dcdf6ff419687a12e7d84842
+    - name: Obelisk_-_On_-_Glowing_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 11
+        y: 2
+        width: 28
+        height: 81
+      spriteId: 219e5aa2e4a78e9428f853c8be8e1faa
+    - name: Obelisk_-_On_-_Glowing_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 11
+        y: 2
+        width: 28
+        height: 81
+      spriteId: 47f6c27f0d4a8bf459ba7362ee7a722b
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 48, y: 128}

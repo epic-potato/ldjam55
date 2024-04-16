@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 enum NecroState {
 	Idle,
@@ -14,12 +15,14 @@ public class Necromancer : MonoBehaviour {
 	Transform xform;
 	Rigidbody2D rb;
 	Animator anim;
+	AudioSource speech;
 
 	void Start() {
 		xform = GetComponent<Transform>();
 		col = GetComponent<CapsuleCollider2D>();
 		rb = GetComponent<Rigidbody2D>();
 		anim = GetComponentInChildren<Animator>();
+		speech = GetComponentInChildren<AudioSource>();
 
 		SetState(NecroState.Idle);
 	}
@@ -78,10 +81,12 @@ public class Necromancer : MonoBehaviour {
 
 		if (rb.velocityX < 0) {
 			xform.localScale = new Vector3(-1, 1, 1);
+			speech.transform.localScale = xform.localScale;
 		}
 
 		if (rb.velocityX > 0) {
 			xform.localScale = new Vector3(1, 1, 1);
+			speech.transform.localScale = xform.localScale;
 		}
 
 		var ground = GetHit(Vector2.down * 0.1f);
@@ -105,5 +110,9 @@ public class Necromancer : MonoBehaviour {
 		}
 
 		target = fromPos;
+	}
+
+	public void Kill() {
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 	}
 }

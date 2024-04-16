@@ -5,16 +5,18 @@ public class ArrowTrap : MonoBehaviour {
 	[SerializeField] GameObject arrowPrefab;
 	[SerializeField] float speed;
 	[SerializeField] float interval = 0;
+	[SerializeField] float initialDelay = 0;
 
 	Trigger trigger;
 	Transform xform;
-	Wait wait = new Wait(0);
+	Wait wait;
 
 	void Start() {
 		xform = transform;
 		trigger = GetComponent<Trigger>();
 
 		xform.localRotation = facing.GetRotation();
+		wait = new Wait(initialDelay);
 	}
 
 	void Fire() {
